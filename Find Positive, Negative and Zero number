@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Find_Positive_Nigative_Zero_No{
+
+public static void main(String[] args) {
+int a;
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter No");
+a=sc.nextInt();
+
+if (a >0) {
+            System.out.println("Positive No");
+        }
+if (a <0) {
+            System.out.println("Nigative No");
+        }
+if (a == 0) {
+            System.out.println("Zero No");
+        }
+
+}
+}
