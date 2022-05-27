@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Find_nopower{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int i;
+        int y;
+        int power = 1;
+        System.out.println("Enter base");
+        i = sc.nextInt();
+
+        System.out.println("Enter power no");
+        y = sc.nextInt();
+        while (y > 0) {
+            power = power * i;
+            y--;
+
+        }
+        System.out.println("Power No = " + power);
+    }
+}
