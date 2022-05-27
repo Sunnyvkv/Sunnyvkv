@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class FindPalindrome_no{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n,R;
+int rev=0;
+
+System.out.println("Enter The No");
+n=sc.nextInt();
+R=n;
+while(n>0){
+int rem=n%10;
+rev=rev*10+rem;
+n=n/10;
+}
+if(R==rev){
+System.out.println("Palindrome No");
+}
+else
+System.out.println("not Palindrome No");
+	
+
+}
+}
