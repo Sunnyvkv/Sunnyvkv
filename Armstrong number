@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Armstrongnum{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int i;
+int num;
+int count=0;
+int rem;
+System.out.println("Enter No");
+i=sc.nextInt();
+num=i;
+
+while(num !=0){
+rem =num%10;
+count=count+(rem*rem*rem);
+num=num/10;
+}
+if(count==i)
+System.out.println(i+"Armstrong NO");
+else
+System.out.println(i+"Armstrong NOT");
+}
+}
