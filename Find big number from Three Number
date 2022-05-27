@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Find_big_threeno{
+
+public static void main(String[] args) {
+int a,b,c;
+Scanner sc = new Scanner(System.in);
+System.out.println("Enter First No");
+a=sc.nextInt();
+System.out.println("Enter Second No");
+b=sc.nextInt();
+System.out.println("Enter thred No");
+c=sc.nextInt();
+
+if (a > b && a > c) {
+            System.out.println("a is Greater than b,c");
+        }
+        else if (b > c && b>a) {
+            System.out.println("b is Greater than a,c");
+        }
+        else
+            System.out.println("c is Greater than a,b");
+
+
+        }
+
+}
