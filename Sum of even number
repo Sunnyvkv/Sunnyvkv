@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class sumEven_no{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n,digit;
+int sum=0;
+int pro=1;
+System.out.println("Enter The No");
+n=sc.nextInt();
+while(n>0){
+digit=n%10;
+if(digit %2==0){
+sum=sum+digit;
+}
+else
+pro=pro*digit;
+n=n/10;
+
+	}
+System.out.println(sum);
+System.out.println(pro);
+}
+}
