@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class PRIME_No{
+public static void main(String[] args) {
+Scanner sc = new Scanner(System.in);
+int n,i=2;
+int count=0;
+
+
+System.out.println("Enter No");
+n=sc.nextInt();
+
+if(n%1==0){
+System.out.println("prime no");
+}
+else
+System.out.println(" Not prime no");
+	
+	}
+}
